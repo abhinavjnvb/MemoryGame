@@ -1,0 +1,69 @@
+<html>
+<head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+<style>
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
+    font-family: 'Coda', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.score-panel {
+    text-align: left;
+    width: 345px;
+    margin-bottom: 10px;
+}
+
+.score-panel .stars {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+}
+
+</style>
+</head>
+<body>
+  <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="material-icons">
+                    star_rate
+                    </i></li>
+        		<li><i class="material-icons">
+                    star_rate
+                    </i></li>
+        		<li><i class="material-icons">
+                    star_rate
+                    </i></li>
+        	</ul>
+
+        	<span class="moves">3</span> Moves
+
+            <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+</body>
+</html>
